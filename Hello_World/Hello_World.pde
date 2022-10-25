@@ -13,7 +13,7 @@ void setup() {
   println("Display Monitor:", "\twidth="+displayWidth, "& height="+displayHeight);
   //
   //Ternary Operator
-  String ls="Landscape or Square", p="portrait", DO="Display Orientation", instruct="Bru, turn your phun";
+  String ls="Landscape or Square", p="portrait", DO="Display Orientation", instruct="Bru, turn your phone";
   //String orientation = ( appWidth >= appHeight ) ? ls : p;
   //println (DO, orientation);
   if ( appWidth < appHeight ) { //Declare Landscape Mode
@@ -35,6 +35,11 @@ void setup() {
 } //End setup
 //
 void draw() {
+  ellipse(150, 20, 12, 30);
+  point(150, 135, 125);
+  circle(150, 202, 124);
+  quad(150, 203, 123, 303, 339, 625, 341, 444);
+  rect(143, 124, 134, 443);
 } //End draw
 //
 void keyPressed() {
