@@ -49,6 +49,8 @@ void setup() {
 } //End setup
 //
 void draw() {
+  //Draw face
+  ellipse( width/2, height/4, 400, 400);
   if ( grayScale == true ) background(225); //Gray Scale 0-255
   //random(a, b)
   if ( randomColour == true ) background( color( random(0, 255), random(255), random(255) ) ); //color(r,g,b), Casting 
